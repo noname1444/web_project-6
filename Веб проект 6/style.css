@@ -12,6 +12,20 @@ h1 {
     margin: 0px 0px 0px 20px;
 }
 
+h2 {
+    padding: 40px;
+    margin: 0px;
+    font-family: "PT Sans", sans-serif;
+    color: #DAEAFF;
+}
+
+h3 {
+    padding: 20px;
+    margin: 0px;
+    color: #DAEAFF;
+    text-align: center;
+}
+
 .main_header {
     width: 80%;
     height: 100%;
@@ -32,7 +46,43 @@ h1 {
 
 .main_content {
     background-color: #466494;
-    margin: auto;
-    height: 1500px;
+    margin: 0 auto;
+    height: 900px;
     width: 80%;
+}
+
+.description {
+    display: flex;
+    color: #DAEAFF;
+    text-align: left;
+    font-size: 24px;
+}
+
+.text {
+    padding: 40px;
+}
+
+img {
+    padding: 20px;
+}
+
+th {
+    color: #DAEAFF;
+    background-color: #5175AD;
+}
+
+table {
+    margin: 0 auto;
+    border: 1px solid #2e4468;
+}
+
+td {
+    width: 250px;
+    color: #DAEAFF;
+    border: 2px solid #2e4468;
+    background-color: #5175AD;
+}
+
+td:nth-child(2) {
+    width: 800px;
 }
